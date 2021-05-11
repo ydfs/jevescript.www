@@ -1,4 +1,6 @@
 import Home from "../views/Home/Home.vue";
+import Login from "../views/Login.vue";
+// import Post from "../views/Post.vue";
 import BasicLayout from "@/components/TheLayout/BasicLayout";
 
 export default [
@@ -13,5 +15,10 @@ export default [
         component: Home
       }
     ]
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login
   }
 ];

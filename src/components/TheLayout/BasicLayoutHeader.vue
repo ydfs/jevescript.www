@@ -16,7 +16,9 @@
         >
       </div>
       <div class="page-header-ft">
-        <span class="login-btn">注册 | 登录</span>
+        <span class="login-btn">
+          <router-link :to="{ name: 'Login' }">注册/登录</router-link>
+        </span>
       </div>
     </div>
   </div>
